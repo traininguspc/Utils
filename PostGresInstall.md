@@ -31,10 +31,10 @@ By default docker containers run in bridged networking mode. So when you’re co
 Connect to your PostgreSQL instance by right clicking on ‘Servers’ in the left pain, then ‘Create>’, ‘Server…’.
 
 You can get the IP address of the postgresql container by using the inspect command from your host. Then scroll to the bottom and find the ip address.
-
+```
 docker inspect postgresql
 Docker Inspect Container
-
+```
 Then use that IP from the pgAdmin Create Server interface and the password from above when you spun up the postresql container (‘postgres’ is the default username).
 
 pgAdmin To Container Connection
@@ -42,6 +42,7 @@ pgAdmin To Container Connection
  
 
 To start and stop the pgAdmin container (my equivalent to opening and closing an application) just run:
-
+```
 docker start pgAdmin
 docker stop pgAdmin
+```
