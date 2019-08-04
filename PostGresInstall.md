@@ -46,3 +46,11 @@ To start and stop the pgAdmin container (my equivalent to opening and closing an
 docker start pgAdmin
 docker stop pgAdmin
 ```
+
+
+##RedMine Install
+
+```
+docker volume create redmine-data
+
+```
