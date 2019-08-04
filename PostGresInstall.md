@@ -48,7 +48,7 @@ docker stop pgAdmin
 ```
 
 
-##RedMine Install
+## RedMine Install
 
 ```
 docker volume create redmine-data
