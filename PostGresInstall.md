@@ -40,6 +40,8 @@ Then use that IP from the pgAdmin Create Server interface and the password from 
 pgAdmin To Container Connection
 
  
+user:pgadmin
+password:password
 
 To start and stop the pgAdmin container (my equivalent to opening and closing an application) just run:
 ```
