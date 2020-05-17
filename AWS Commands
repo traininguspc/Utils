@@ -1,7 +1,0 @@
-# AWS Commands
-
-1. RDS
-  ### ShutDOwn
-  '''code'
-  aws rds stop-db-instance --db-instance-identifier database-1
-  '''
